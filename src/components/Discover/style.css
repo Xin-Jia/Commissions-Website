@@ -1,0 +1,24 @@
+.carousel.carousel-slider .control-arrow{
+    padding:5em !important;
+}
+.carousel .control-next.control-arrow:before{
+    border-left:20px solid #000 !important;
+}
+.carousel .control-prev.control-arrow:before{
+    border-right:20px solid #000 !important;
+}
+
+.carousel .control-dots .dot {
+    width:13px !important;
+    height:13px !important;
+    background:#fff !important;
+    opacity:0.45;
+
+}
+.carousel .control-dots{
+    margin:13px 0 !important;
+}
+
+.carousel .carousel-status{
+    display:none !important;
+}
