@@ -20,26 +20,26 @@ const Discover = () => {
             <DiscoverWrapper>
                 <Carousel>
                     <div>
-                        <DiscoverIcon src={Icon1} />
+                        <DiscoverIcon src={Icon1} alt="img1" />
                         {/* <p className="legend">Legend 1</p> */}
                     </div>
                     <div>
-                        <DiscoverIcon src={Icon2} />
+                        <DiscoverIcon src={Icon2} alt="img2" />
                     </div>
                     <div>
-                        <DiscoverIcon src={Icon3} />
+                        <DiscoverIcon src={Icon3} alt="img3" />
                     </div>
                     <div>
-                        <DiscoverIcon src={Icon4} />
+                        <DiscoverIcon src={Icon4} alt="img4" />
                     </div>
                     <div>
-                        <DiscoverIcon src={Icon5} />
+                        <DiscoverIcon src={Icon5} alt="img5" />
                     </div>
                     <div>
-                        <DiscoverIcon src={Icon6} />
+                        <DiscoverIcon src={Icon6} alt="img6" />
                     </div>
                     <div>
-                        <DiscoverIcon src={Icon7} />
+                        <DiscoverIcon src={Icon7} alt="img7" />
                     </div>
                 </Carousel>
             </DiscoverWrapper>

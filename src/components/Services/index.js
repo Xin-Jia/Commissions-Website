@@ -11,21 +11,21 @@ const Services = () => {
         <ServicesContainer id='services'>
             <ServicesH1>Services</ServicesH1>
             <ServicesWrapper>
-                <ServicesCard src={Icon1}>
+                <ServicesCard src={Icon1} alt="portrait">
                     <ServicesTextWrapper >
                         <ServicesH2>Portrait</ServicesH2>
                         <ServicesP>Get a new professional headshot which can be used on all platforms !</ServicesP>
 
                     </ServicesTextWrapper>
                 </ServicesCard>
-                <ServicesCard src={Icon2}>
+                <ServicesCard src={Icon2} alt="media">
                     <ServicesTextWrapper >
                         <ServicesH2>Social Media</ServicesH2>
                         <ServicesP>Capture better photos to grow your online presence ! </ServicesP>
 
                     </ServicesTextWrapper>
                 </ServicesCard >
-                <ServicesCard src={Icon3}>
+                <ServicesCard src={Icon3} alt="family">
                     <ServicesTextWrapper >
                         <ServicesH2>Family</ServicesH2>
                         <ServicesP>Do you need need new photos of your family ? </ServicesP>
