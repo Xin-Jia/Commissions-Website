@@ -146,6 +146,11 @@ const Form = () => {
             setEmailError('');
             setPhoneError('');
             setBudgetError('');
+            setNameCorrect(false);
+            setEmailCorrect(false);
+            setPhoneCorrect(false);
+            setOptionCorrect(false);
+            setBudgetCorrect(false);
             setOpen(true);
         }
         else {
