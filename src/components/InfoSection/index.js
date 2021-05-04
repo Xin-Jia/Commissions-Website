@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonLink } from '../ButtonElements';
+import { Button, NavBtnLink, TextLink } from '../ButtonElements';
 import {
     InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
     TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img
@@ -42,15 +42,8 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    {isLink ? <ButtonLink href="/form"
-                                        smooth={true}
-                                        duration={500}
-                                        spy={true}
-                                        exact="true"
-                                        offset={-80}
-                                        primary={primary ? 1 : 0}
-                                        dark={dark ? 1 : 0}
-                                        dark2={dark2 ? 1 : 0}>{buttonLabel}</ButtonLink> :
+                                    {isLink ? <NavBtnLink to="/form" target="_blank">Start Now</NavBtnLink>
+                                        :
                                         <Button to="home"
                                             smooth={true}
                                             duration={500}
@@ -84,7 +77,9 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
                                                     <Typography variant="h6" component="h1">
                                                         Contact me
             </Typography>
-                                                    <Typography>Tell me what you want by completing <a target="_blank" href="/form" style={{ color: "#6FD119", fontWeight: "bold", textDecoration: "none" }}>this form</a>.</Typography>
+                                                    <Typography>Tell me what you want by completing
+                                                        <TextLink to="/form" target="_blank"> this form</TextLink>.
+                                                        </Typography>
                                                 </Paper>
                                             </TimelineContent>
                                         </TimelineItem>
