@@ -21,7 +21,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>P H E L I A</HeroH1>
                 <HeroH1>Photography Made Easy</HeroH1>
-                <HeroP>Make your first order and receive a 20% discount on the total invoice. Offer ends June 1st.</HeroP>
+                <HeroP>Book your first photoshoot and receive a 20% discount on the total invoice. Offer ends June 1st.</HeroP>
                 <HeroBtnWrapper>
                     <Button
                         onMouseEnter={onHover}

@@ -24,7 +24,7 @@ export const homeObjThree = {
     lightTextDesc: false,
     topLine: 'Easier than you think',
     headline: 'How It Works',
-    description: 'The process is as easy as breathing! I will first need you to complete a form and I would call you back to get more details. To book the photoshoot, you will need to pay the first 50% of the invoice, and the rest after so you can download and print them.',
+    description: 'The process is as easy as breathing — I will first need you to complete a form and I would call you back to get more details. To book the photoshoot, you will need to pay the first 50% of the invoice, and the rest after so you can download and print them.',
     buttonLabel: 'Start Now',
     imgStart: false,
     img: "",
