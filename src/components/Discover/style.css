@@ -9,9 +9,8 @@
 }
 
 .carousel .control-dots .dot {
-    width:13px !important;
-    height:13px !important;
-    background:#fff !important;
+    width:10px !important;
+    height:10px !important;
     opacity:0.45;
 
 }

@@ -3,48 +3,34 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+    topLine: 'Xin Jia',
+    headline: 'About',
+    description: 'Hi! I\'m Xin Jia, a computer science student passionated about photography. My goal is to capture images that represent my clients to the fullest as well as to satisfy their needs.',
     buttonLabel: 'Get Started',
     imgStart: false,
     img: require('../../images/svg-1.svg').default,
     alt: 'Car',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    isLink: false
 }
 
-export const homeObjTwo = {
-    id: 'discover',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Learn more',
-    imgStart: true,
-    img: require('../../images/svg-2.svg').default,
-    alt: 'Car',
-    dark: false,
-    primary: false,
-    darkText: true
-}
 
 export const homeObjThree = {
-    id: 'signup',
+    id: 'how',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
-    buttonLabel: 'Get Started',
+    topLine: 'Easier than you think',
+    headline: 'How It Works',
+    description: 'The process is as easy as breathing! I will first need you to complete a form and I would call you back to get more details. To book the photoshoot, you will need to pay the first 50% of the invoice, and the rest after so you can download and print them.',
+    buttonLabel: 'Start Now',
     imgStart: false,
-    img: require('../../images/svg-3.svg').default,
+    img: "",
     alt: 'Car',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true.valueOf,
+    isLink: true
 }

@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
                         <NavLogo to="/" onClick={toggleHome}>
-                            dolla
+                            PHELIA
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
@@ -65,16 +65,16 @@ const Navbar = ({ toggle }) => {
                                     offset={-80}>Services</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="signup"
+                                <NavLinks to="how"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
                                     exact='true'
-                                    offset={-80}>Sign Up</NavLinks>
+                                    offset={-80}>How It Works</NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/signin">Sign In </NavBtnLink>
+                            <NavBtnLink to="/form">Contact</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>

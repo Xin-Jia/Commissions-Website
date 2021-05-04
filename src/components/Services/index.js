@@ -1,8 +1,9 @@
 import React from 'react';
-import Icon1 from '../../images/svg-4.svg';
-import Icon2 from '../../images/svg-5.svg';
-import Icon3 from '../../images/svg-6.svg';
-import { ServicesContainer, ServicesCard, ServicesH1, ServicesH2, ServicesWrapper, ServicesIcon, ServicesP }
+import Icon1 from '../../images/headshot.png';
+import Icon2 from '../../images/socialmedia.png';
+import Icon3 from '../../images/family.png';
+import { Button } from '../ButtonElements';
+import { ServicesContainer, ServicesCard, ServicesH1, ServicesH2, ServicesWrapper, ServicesTextWrapper, ServicesP }
     from './ServicesElements';
 
 const Services = () => {
@@ -10,23 +11,26 @@ const Services = () => {
         <ServicesContainer id='services'>
             <ServicesH1>Services</ServicesH1>
             <ServicesWrapper>
-                <ServicesCard>
-                    <ServicesIcon src={Icon1} />
-                    <ServicesH2>Reduce Expenses</ServicesH2>
-                    <ServicesP>We help reduce your fees and increase your overall revenue.</ServicesP>
+                <ServicesCard src={Icon1}>
+                    <ServicesTextWrapper >
+                        <ServicesH2>Portrait</ServicesH2>
+                        <ServicesP>Get a new professional headshot which can be used on all platforms !</ServicesP>
 
+                    </ServicesTextWrapper>
                 </ServicesCard>
-                <ServicesCard>
-                    <ServicesIcon src={Icon2} />
-                    <ServicesH2>Virtual Offices</ServicesH2>
-                    <ServicesP>You can acces our platform online anywhere in the world.</ServicesP>
+                <ServicesCard src={Icon2}>
+                    <ServicesTextWrapper >
+                        <ServicesH2>Social Media</ServicesH2>
+                        <ServicesP>Capture better photos to grow your online presence ! </ServicesP>
 
-                </ServicesCard>
-                <ServicesCard>
-                    <ServicesIcon src={Icon3} />
-                    <ServicesH2>Premium Benefits</ServicesH2>
-                    <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
+                    </ServicesTextWrapper>
+                </ServicesCard >
+                <ServicesCard src={Icon3}>
+                    <ServicesTextWrapper >
+                        <ServicesH2>Family</ServicesH2>
+                        <ServicesP>Do you need need new photos of your family ? </ServicesP>
 
+                    </ServicesTextWrapper>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

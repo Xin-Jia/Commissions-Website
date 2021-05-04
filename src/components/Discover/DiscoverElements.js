@@ -32,8 +32,7 @@ export const DiscoverH1 = styled.h1`
 `;
 
 export const DiscoverIcon = styled.img`
-width:50% !important;
-height:33rem !important;
+width:20% !important;
+height:20% !important;
 margin-bottom:10px;
-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 10px 12px rgba(0,0,0,0.22);
-`;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);`;

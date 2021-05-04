@@ -19,15 +19,16 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
             </HeroBg>
             <HeroContent>
-                <HeroH1>Commissions Made Easy</HeroH1>
-                <HeroP>Sign up for a new account today and receive a 20% discount on your first order.</HeroP>
+                <HeroH1>P H E L I A</HeroH1>
+                <HeroH1>Photography Made Easy</HeroH1>
+                <HeroP>Make your first order and receive a 20% discount on the total invoice. Offer ends June 1st.</HeroP>
                 <HeroBtnWrapper>
                     <Button
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary="true"
                         dark="true"
-                        to="signup"
+                        to="how"
                         smooth={true}
                         duration={500}
                         spy={true}
