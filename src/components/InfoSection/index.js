@@ -42,7 +42,7 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    {isLink ? <NavBtnLink to="/form">Start Now</NavBtnLink>
+                                    {isLink ? <NavBtnLink to="/form" target="_blank">Start Now</NavBtnLink>
                                         :
                                         <Button to="home"
                                             smooth={true}
