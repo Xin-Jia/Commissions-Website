@@ -11,10 +11,12 @@ background:${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
     padding:100px 0;
     height: 1070px;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     height: 1200px;
 }
-
+@media screen and (max-width: 550px){
+    height: 1300px;
+}
 `;
 
 export const InfoWrapper = styled.div`
