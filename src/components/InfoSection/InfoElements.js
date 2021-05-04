@@ -9,13 +9,16 @@ background:${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 } */
 @media screen and (max-width: 895px){
     padding:100px 0;
-    height: 1070px;
+    height: 1150px;
 }
 @media screen and (max-width: 600px){
-    height: 1200px;
+    height: 1300px;
 }
 @media screen and (max-width: 550px){
-    height: 1300px;
+    height: 1400px;
+}
+@media screen and (max-width: 512px){
+    height: 1600px;
 }
 `;
 
