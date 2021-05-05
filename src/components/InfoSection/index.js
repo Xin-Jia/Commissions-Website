@@ -28,12 +28,12 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description,
-    buttonLabel, img, alt, primary, dark, dark2, isLink }) => {
+    buttonLabel, img, alt, primary, dark, dark2, isLink, isHow }) => {
     const classes = useStyles();
 
     return (
         <>
-            <InfoContainer lightBg={lightBg} id={id}>
+            <InfoContainer lightBg={lightBg} id={id} isHow={isHow}>
                 <InfoWrapper>
                     <InfoRow imgStart={imgStart}>
                         <Column1>

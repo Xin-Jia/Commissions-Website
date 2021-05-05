@@ -4,21 +4,31 @@ export const InfoContainer = styled.div`
 color:#fff;
 background:${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
-/* @media screen and (max-width:768px){
+@media screen and (max-width: 895px){
+    padding:80px 0;
+    height: ${({ isHow }) => (isHow ? '1150px' : '900px')};
+}
+@media screen and (max-width: 600px){
+    height: ${({ isHow }) => (isHow ? '1300px' : '1000px')};
+}
+@media screen and (max-width: 550px){
+    height: ${({ isHow }) => (isHow ? '1400px' : '900px')};
+}
+@media screen and (max-width: 400px){
+    height: ${({ isHow }) => (isHow ? '1550px' : '800px')};
+}
+`;
+
+export const InfoContainer2 = styled.div`
+color:#fff;
+background:${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+
+@media screen and (max-width:768px){
     padding:100px 0;
-} */
+} 
 @media screen and (max-width: 895px){
     padding:100px 0;
     height: 1150px;
-}
-@media screen and (max-width: 600px){
-    height: 1300px;
-}
-@media screen and (max-width: 550px){
-    height: 1400px;
-}
-@media screen and (max-width: 512px){
-    height: 1600px;
 }
 `;
 

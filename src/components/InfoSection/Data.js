@@ -13,7 +13,8 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-    isLink: false
+    isLink: false,
+    isHow: false
 }
 
 
@@ -31,6 +32,7 @@ export const homeObjThree = {
     alt: 'smth',
     dark: false,
     primary: false,
-    darkText: true.valueOf,
-    isLink: true
+    darkText: true,
+    isLink: true,
+    isHow: true
 }

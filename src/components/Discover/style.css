@@ -1,23 +1,36 @@
 .carousel.carousel-slider .control-arrow{
-    padding:5em !important;
-}
-.carousel .control-next.control-arrow:before{
-    border-left:20px solid #000 !important;
-}
-.carousel .control-prev.control-arrow:before{
-    border-right:20px solid #000 !important;
+    padding:1em !important;
+
 }
 
+.carousel .control-next.control-arrow:before{
+    border-left:20px solid #fff !important;
+}
+.carousel .control-prev.control-arrow:before{
+    border-right:20px solid #fff !important;
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+    opacity:1 !important;
+}
+.carousel.carousel-slider .control-arrow{
+    background:none !important;
+}
+/* 
 .carousel .control-dots .dot {
     width:10px !important;
     height:10px !important;
     opacity:0.45;
 
-}
+}*/
 .carousel .control-dots{
-    margin:13px 0 !important;
-}
+    display:none;
+} 
 
 .carousel .carousel-status{
     display:none !important;
 }
+
+.carousel.carousel-slider .control-arrow{
+    background:#fff;
+}
+

@@ -4,19 +4,19 @@ import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './style.css';
 import { DiscoverContainer, DiscoverH1, DiscoverIcon, DiscoverWrapper }
     from './DiscoverElements';
-import Icon1 from '../../images/img1.png';
-import Icon2 from '../../images/img2.png';
-import Icon3 from '../../images/img3.png';
-import Icon4 from '../../images/img4.png';
-import Icon5 from '../../images/img5.png';
-import Icon6 from '../../images/img6.png';
-import Icon7 from '../../images/img7.png';
+import Icon1 from '../../images/img1.jpg';
+import Icon2 from '../../images/img2.jpg';
+import Icon3 from '../../images/img3.jpg';
+import Icon4 from '../../images/img4.jpg';
+import Icon5 from '../../images/img5.jpg';
+import Icon6 from '../../images/img6.jpg';
+import Icon7 from '../../images/img7.jpg';
 
 
 const Discover = () => {
     return (
         <DiscoverContainer id='discover'>
-            <DiscoverH1>Discover</DiscoverH1>
+            {/* <DiscoverH1>Discover</DiscoverH1> */}
             <DiscoverWrapper>
                 <Carousel>
                     <div>
